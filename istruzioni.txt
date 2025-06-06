@@ -1,0 +1,33 @@
+Come Usare il Programma
+
+1. Clona il Repository
+git clone https://github.com/il-tuo-nome/il-nome-del-progetto.git 
+cd il-nome-del-progetto
+
+2. Compila il codice
+Usando GCC:
+
+gcc main.c -o simulatore
+3. Avvia il programma
+./simulator
+4. Utilizzo Interattivo
+All'avvio ti verrà presentato un menù principale con diverse opzioni:
+
+Inserisci manualmente i dati oppure compila i file di input (input_alu.txt, input_bin.txt, ecc.)
+Seleziona un'opzione digitando il numero corrispondente.
+I risultati saranno mostrati nella console e salvati nei file di output (risultati_*.txt).
+File di Input/Output
+Il programma si aspetta alcuni file per leggere gli input:
+
+input_alu.txt – Per la simulazione ALU 74181
+input_alu32.txt – Per la simulazione ALU 32 bit
+input_bin.txt – Per la conversione binario → decimale
+input_dec.txt – Per la conversione decimale → binario
+Se i file non esistono, vengono creati automaticamente con template vuoti. Compilali prima di eseguire nuovamente il programma.
+
+I risultati vengono invece salvati in:
+
+risultati_alu_74181.txt
+risultati_alu32.txt
+risultati_bin.txt
+risultati_dec.txt
